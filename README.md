@@ -29,8 +29,6 @@ Tutorials can be seen in the soDGVAE_tutorials folder.
 
 The data can be download in [figshare](https://figshare.com/articles/dataset/Dataset_for_soDGVAE/32147362)
 
-The URL is: https://drive.google.com/drive/folders/1wQXD1ecYIZF9GaXY8oz3zYC4om_uGDtP?usp=drive_link
-
 It is recommended to use a Python version  `3.11`.
 
 * Set up conda environment for soDGVAE:
