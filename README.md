@@ -1,28 +1,5 @@
 # soDGVAE
 
-## Overview
-
-Spatial omics has revolutionized our understanding of molecular heterogeneity within its native tissue context; 
-however, the integrative analysis of datasets spanning replicates, disparate platforms, developmental stages, and 
-species remains a formidable computational challenge. Here, we present soDGVAE, a conditional graph variational 
-autoencoder framework engineered for the robust harmonization and alignment of multifaceted spatial transcriptomics 
-data. By synergistically encoding gene expression and spatial topology through graph attention networks, soDGVAE 
-effectively decouples technical batch effects from genuine biological variation. Through comprehensive benchmarking, 
-we demonstrate the proposed model outperforms existing methods in integrating replicates in different platforms, 
-large-scale multi-technology atlases and imaging-based datasets with restricted gene overlap. Beyond technical 
-integration, soDGVAE facilitates deep biological discovery: it enables the high-fidelity reconstruction of the 
-three-dimensional murine kidney architecture and deciphers coarse versus refined region in the developmental avian 
-heart. Notably, cross-speices study found that in the same Carnegie stage, the skin of mice matured earlier than that 
-of humans, which elucidates the heterogeneous shifts in developmental tempo across species. Collectively, our results 
-position soDGVAE as a scalable and generalizable cornerstone for the next generation of integrative spatial biology, 
-transforming discrete tissue slices into coherent, multi-dimensional biological maps.
-
-![](./Figure_main.jpg)
-
-## Doc
-
-Tutorials can be seen in the soDGVAE_tutorials folder.
-
 ## Prerequisites
 
 ### Data
@@ -105,3 +82,7 @@ For a more detailed description of the experimental environment, please refer to
 ```
 The "requirements.txt"
 ```
+
+## Doc
+
+Tutorials can be seen in the soDGVAE_tutorials folder.
